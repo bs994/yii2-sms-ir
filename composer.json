@@ -1,12 +1,30 @@
 {
   "name": "bs994/yii2-sms-ir",
-  "type": "yii2-extension",
+  "description": "Sms.ir webservices",
+  "type": "library",
+  "minimum-stability": "dev",
+  "keywords": [
+    "yii2",
+    "yii",
+    "yiiframeowrk",
+    "sms",
+    "extension",
+    "sms.ir"
+  ],
+  "license": "BSD-3-Clause",
   "authors": [
     {
-      "name": "mostafa",
+      "name": "Mostafa Hasanabadi",
       "email": "mhpro2008@gmail.com"
     }
   ],
-  "minimum-stability": "dev",
-  "require": {}
+  "require": {
+    "php": ">=5.3.0",
+    "yiisoft/yii2": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "SMSIR\\": ""
+    }
+  }
 }
