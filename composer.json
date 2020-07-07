@@ -1,0 +1,12 @@
+{
+  "name": "bs994/yii2-sms-ir",
+  "type": "yii2-extension",
+  "authors": [
+    {
+      "name": "mostafa",
+      "email": "mhpro2008@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {}
+}
